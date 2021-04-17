@@ -4,13 +4,9 @@ from flask import Flask
 app = Flask(__name__)
 
 
-#@app.route('/')
-#def hello_world():
-#    return "Hello World!\n"
 @app.route('/')
-def fake_response():
-    with open('data/1078711.txt', 'r') as f:
-        return f.read()
+def hello_world():
+    return "Hello World!\n"
 
 
 @app.route('/flask')

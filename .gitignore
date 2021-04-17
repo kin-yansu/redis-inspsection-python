@@ -1,0 +1,3 @@
+## Venvは除外
+/venv/
+/.idea/
